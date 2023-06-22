@@ -1,0 +1,6 @@
+# This is for CouldBuild for this we can connect the github ripository to CouldBuild 
+steps:
+- name: 'docker'
+  args: ['build','-t','gcr.io/$PROJECT_ID/gcpdevops']
+images:
+- 'gcr.io/$PROJECT_ID/gcpdevops'
